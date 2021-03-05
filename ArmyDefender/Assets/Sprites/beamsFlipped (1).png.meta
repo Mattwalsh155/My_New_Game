@@ -1,0 +1,1388 @@
+fileFormatVersion: 2
+guid: 837335b4627e9e24ebcec0cd7cc351e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5091606995350430521
+    second: beamsFlipped (1)_0
+  - first:
+      213: -5181925180567998468
+    second: beamsFlipped (1)_1
+  - first:
+      213: 3295543849697340196
+    second: beamsFlipped (1)_2
+  - first:
+      213: -8943477748321221987
+    second: beamsFlipped (1)_3
+  - first:
+      213: -254296034989632594
+    second: beamsFlipped (1)_4
+  - first:
+      213: 2203815630528095501
+    second: beamsFlipped (1)_5
+  - first:
+      213: 5278454572093279183
+    second: beamsFlipped (1)_6
+  - first:
+      213: -728468336242011146
+    second: beamsFlipped (1)_7
+  - first:
+      213: 200461483699138535
+    second: beamsFlipped (1)_8
+  - first:
+      213: -3198431460440320250
+    second: beamsFlipped (1)_9
+  - first:
+      213: 3333757423761438445
+    second: beamsFlipped (1)_10
+  - first:
+      213: 3054670457262778264
+    second: beamsFlipped (1)_11
+  - first:
+      213: 3296548805693297064
+    second: beamsFlipped (1)_12
+  - first:
+      213: 4516740986081572678
+    second: beamsFlipped (1)_13
+  - first:
+      213: 3129040025371064006
+    second: beamsFlipped (1)_14
+  - first:
+      213: 4833987372111041486
+    second: beamsFlipped (1)_15
+  - first:
+      213: 2367521955053728464
+    second: beamsFlipped (1)_16
+  - first:
+      213: -9159762497513077953
+    second: beamsFlipped (1)_17
+  - first:
+      213: 8730814447308481590
+    second: beamsFlipped (1)_18
+  - first:
+      213: -5209003550883437925
+    second: beamsFlipped (1)_19
+  - first:
+      213: -1350996007029693950
+    second: beamsFlipped (1)_20
+  - first:
+      213: -1925392610720101749
+    second: beamsFlipped (1)_21
+  - first:
+      213: -8404055617608876627
+    second: beamsFlipped (1)_22
+  - first:
+      213: 3893460656338898234
+    second: beamsFlipped (1)_23
+  - first:
+      213: 4084648007500786464
+    second: beamsFlipped (1)_24
+  - first:
+      213: 6936074639309521710
+    second: beamsFlipped (1)_25
+  - first:
+      213: 8391851243959109520
+    second: beamsFlipped (1)_26
+  - first:
+      213: 656192510653683773
+    second: beamsFlipped (1)_27
+  - first:
+      213: -9111307736648236981
+    second: beamsFlipped (1)_28
+  - first:
+      213: 8559513665390460850
+    second: beamsFlipped (1)_29
+  - first:
+      213: -743510614644929423
+    second: beamsFlipped (1)_30
+  - first:
+      213: -2079302448093673654
+    second: beamsFlipped (1)_31
+  - first:
+      213: 4601686261998425787
+    second: beamsFlipped (1)_32
+  - first:
+      213: -4652954469874265612
+    second: beamsFlipped (1)_33
+  - first:
+      213: -8468612980505431761
+    second: beamsFlipped (1)_34
+  - first:
+      213: 7888488527392961465
+    second: beamsFlipped (1)_35
+  - first:
+      213: 6093198196782463263
+    second: beamsFlipped (1)_36
+  - first:
+      213: -134084726175265597
+    second: beamsFlipped (1)_37
+  - first:
+      213: 849844447475243455
+    second: beamsFlipped (1)_38
+  - first:
+      213: 2380441237874501806
+    second: beamsFlipped (1)_39
+  - first:
+      213: 6249836692391947634
+    second: beamsFlipped (1)_40
+  - first:
+      213: -2237101474159745361
+    second: beamsFlipped (1)_41
+  - first:
+      213: 9083301119041064107
+    second: beamsFlipped (1)_42
+  - first:
+      213: -6273743895547503588
+    second: beamsFlipped (1)_43
+  - first:
+      213: -2496502536426314747
+    second: beamsFlipped (1)_44
+  - first:
+      213: -4053548833361340085
+    second: beamsFlipped (1)_45
+  - first:
+      213: -6006097795360682844
+    second: beamsFlipped (1)_46
+  - first:
+      213: 6140797273355768184
+    second: beamsFlipped (1)_47
+  - first:
+      213: -7940732602969027736
+    second: beamsFlipped (1)_48
+  - first:
+      213: -1795742525300197974
+    second: beamsFlipped (1)_49
+  - first:
+      213: -7401011516044149427
+    second: beamsFlipped (1)_50
+  - first:
+      213: 5974802258770731737
+    second: beamsFlipped (1)_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: beamsFlipped (1)_0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 470
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc5e3a0a6af659b0800000000000000
+      internalID: -5091606995350430521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 453
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffa797d08a1618b0800000000000000
+      internalID: -5181925180567998468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 454
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42beee6bbaf1cbd20800000000000000
+      internalID: 3295543849697340196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_3
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 385
+        width: 49
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9204ba5f5262e380800000000000000
+      internalID: -8943477748321221987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 373
+        width: 8
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea317ae7a1f887cf0800000000000000
+      internalID: -254296034989632594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 442
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05a410c3a6859e10800000000000000
+      internalID: 2203815630528095501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_6
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 449
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb08a48776d04940800000000000000
+      internalID: 5278454572093279183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_7
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 438
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3dc2468e5f3e5f0800000000000000
+      internalID: -728468336242011146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_8
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 443
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efe80748ae28c200800000000000000
+      internalID: 200461483699138535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 328
+        width: 71
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60755026883ec93d0800000000000000
+      internalID: -3198431460440320250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 424
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de63f92c6b2e34e20800000000000000
+      internalID: 3333757423761438445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 414
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8972707b89e546a20800000000000000
+      internalID: 3054670457262778264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_12
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 420
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a156144ca1bfbd20800000000000000
+      internalID: 3296548805693297064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 410
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647f6d10fffaeae30800000000000000
+      internalID: 4516740986081572678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_14
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 425
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6b83023559c6b20800000000000000
+      internalID: 3129040025371064006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_15
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 415
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3176347e5c51340800000000000000
+      internalID: 4833987372111041486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_16
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 387
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d27ae8aca02bd020800000000000000
+      internalID: 2367521955053728464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 380
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33c9ccf98cf1e080800000000000000
+      internalID: -9159762497513077953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 383
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634aba36b751a2970800000000000000
+      internalID: 8730814447308481590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_19
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 376
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9228d37ed6e5b7b0800000000000000
+      internalID: -5209003550883437925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_20
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 388
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202260c1a4c404de0800000000000000
+      internalID: -1350996007029693950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_21
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 381
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8acdd82f91a745e0800000000000000
+      internalID: -1925392610720101749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_22
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 281
+        width: 56
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadfbcf31fbce5b80800000000000000
+      internalID: -8404055617608876627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_23
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 346
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d0a08a6d9580630800000000000000
+      internalID: 3893460656338898234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_24
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 335
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b679fa8b59fa830800000000000000
+      internalID: 4084648007500786464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_25
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 344
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23c3a3b223e14060800000000000000
+      internalID: 6936074639309521710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_26
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 333
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0974a149e38d57470800000000000000
+      internalID: 8391851243959109520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_27
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 339
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38d8cd9c934b1900800000000000000
+      internalID: 656192510653683773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_28
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 328
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4040d523e12e8180800000000000000
+      internalID: -9111307736648236981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_29
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 317
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf33b3145089c670800000000000000
+      internalID: 8559513665390460850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_30
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 307
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c4b5709058ea5f0800000000000000
+      internalID: -743510614644929423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_31
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 315
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47c6c8a075d423e0800000000000000
+      internalID: -2079302448093673654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_32
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 305
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6163646497cdf30800000000000000
+      internalID: 4601686261998425787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_33
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 310
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f11413ef826d6fb0800000000000000
+      internalID: -4652954469874265612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_34
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 300
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2136b4ec51797a80800000000000000
+      internalID: -8468612980505431761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_35
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 280
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3700a458a897d60800000000000000
+      internalID: 7888488527392961465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_36
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 273
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19f4411a736f8450800000000000000
+      internalID: 6093198196782463263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_37
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 278
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc8486e6a2a32ef0800000000000000
+      internalID: -134084726175265597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_38
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 271
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb99916b5014bcb00800000000000000
+      internalID: 849844447475243455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_39
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 273
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8633891b6090120800000000000000
+      internalID: 2380441237874501806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_40
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 266
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d6932db51ebb650800000000000000
+      internalID: 6249836692391947634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_41
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 179
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6a43adf0834f0e0800000000000000
+      internalID: -2237101474159745361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_42
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 263
+        width: 95
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacc95c0e3e5e0e70800000000000000
+      internalID: 9083301119041064107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_43
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 254
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c9d1eaa2f2fe8a0800000000000000
+      internalID: -6273743895547503588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_44
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 174
+        width: 47
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504a27f8b24aa5dd0800000000000000
+      internalID: -2496502536426314747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_45
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 184
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b495ccb00d6eeb7c0800000000000000
+      internalID: -4053548833361340085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_46
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 78
+        width: 99
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac054570ed06aca0800000000000000
+      internalID: -6006097795360682844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_47
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 189
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871de04b59e783550800000000000000
+      internalID: 6140797273355768184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_48
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 63
+        width: 62
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b0ba7f4c9dcc190800000000000000
+      internalID: -7940732602969027736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_49
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 68
+        width: 54
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa53b6fffad3417e0800000000000000
+      internalID: -1795742525300197974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_50
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 95
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dfc970d335a4990800000000000000
+      internalID: -7401011516044149427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: beamsFlipped (1)_51
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 28
+        width: 43
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d22b3d9ff2cae250800000000000000
+      internalID: 5974802258770731737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
