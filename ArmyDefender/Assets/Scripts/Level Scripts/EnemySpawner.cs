@@ -20,7 +20,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private int spawnCount = 0;
     private Vector2 whereToSpawn;
     private float secondWaveTime = 0f;
-    private float secondWaveSpawnTime = 0f;
+    private float secondWaveSpawnTime = 10f;
 
     //Object references
     [SerializeField] GameObject enemyPrefab;
@@ -75,7 +75,7 @@ public class EnemySpawner : MonoBehaviour
         Instantiate(twoEnemies[Random.Range(0, twoEnemies.Length)], whereToSpawn, Quaternion.identity);
         spawnCount++;
         spawnRate = 3.5f - spawnCount * 0.1f;
-        if (spawnRate <= 0.1f) { spawnRate = 0.1f; }
+        if (spawnRate <= 0.5f) { spawnRate = 0.5f; }
     }
 
     private void SpawnEnemy()

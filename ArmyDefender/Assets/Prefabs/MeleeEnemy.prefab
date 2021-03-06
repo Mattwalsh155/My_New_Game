@@ -42,8 +42,8 @@ GameObject:
   - component: {fileID: 4604429663435530494}
   - component: {fileID: 3352260678050952070}
   - component: {fileID: 3934221177776790311}
-  - component: {fileID: 1508208860}
   - component: {fileID: 2708634356508012865}
+  - component: {fileID: -490613715086878128}
   m_Layer: 11
   m_Name: MeleeEnemy
   m_TagString: Enemy
@@ -163,20 +163,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &1508208860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 665966544275463388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311e9042df96cab46ba7188a81322f54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosionPrefab: {fileID: 141134, guid: f81f11d9893d41e48ad4eb20f4f4d66c, type: 3}
-  bulletImpactPrefab: {fileID: 100000, guid: b8610f4e28596594796dc0cd81578316, type: 3}
 --- !u!114 &2708634356508012865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,3 +176,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 50
+--- !u!114 &-490613715086878128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665966544275463388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ab1de26e887e7f4981b65452fbf1acc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionPrefab: {fileID: 141134, guid: f81f11d9893d41e48ad4eb20f4f4d66c, type: 3}
+  bulletImpactPrefab: {fileID: 100000, guid: b8610f4e28596594796dc0cd81578316, type: 3}
+  healthPickUpPrefab: {fileID: 4677992870419992338, guid: 672e8ca9d39898b4caeaf1e94a898f83,
+    type: 3}
+  coinPrefab: {fileID: 4112226796167734750, guid: 3906fae472ae3ab4b9702f7858077f58,
+    type: 3}

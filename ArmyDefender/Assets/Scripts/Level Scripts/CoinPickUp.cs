@@ -18,8 +18,10 @@ public class CoinPickUp : MonoBehaviour
     private void HandleCollision(Collider2D collision)
     {
         PickUpManager manager = collision.GetComponent<PickUpManager>();
-        manager.PickUpItem(gameObject);
+        if (!manager) { return; }
+        manager.PickUpItem(gameObject); //This line is causing null reference exception
         Destroy(gameObject);
+        
     }
 
     private void MoveCoin()

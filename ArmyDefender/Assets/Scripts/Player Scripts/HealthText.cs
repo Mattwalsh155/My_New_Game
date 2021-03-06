@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class HealthText : MonoBehaviour
 {
-    private float currentHealth;
-    private float startingHealth = 100f;
     Player player;
     Text healthText;
 

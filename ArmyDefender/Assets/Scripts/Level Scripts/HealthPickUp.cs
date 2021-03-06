@@ -7,7 +7,6 @@ public class HealthPickUp : MonoBehaviour
     Player player;
     PickUpManager manager;
     private float healthBonus;
-    private float startingHealth = 100f;
     private float healPercent = 0.2f;
     private float moveSpeed = 1f;
 
@@ -32,6 +31,7 @@ public class HealthPickUp : MonoBehaviour
     private void HandleCollision(Collider2D collision)
     {
         PickUpManager manager = collision.GetComponent<PickUpManager>();
+        if (!manager) { return; }
         manager.PickUpItem(gameObject);
         Destroy(gameObject);
     }

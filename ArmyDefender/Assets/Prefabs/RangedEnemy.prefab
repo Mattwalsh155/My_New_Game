@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 4604429663435530494}
   - component: {fileID: 3352260678050952070}
   - component: {fileID: 3934221177776790311}
-  - component: {fileID: 5702707686948616276}
+  - component: {fileID: 4275410661838524217}
   m_Layer: 11
   m_Name: RangedEnemy
   m_TagString: Enemy
@@ -162,7 +162,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
---- !u!114 &5702707686948616276
+--- !u!114 &4275410661838524217
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,14 +171,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 665966544275463388}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad8cbafad9be0314f9789e5564d479db, type: 3}
+  m_Script: {fileID: 11500000, guid: 03cd146d168b39844a7c6f9394dca7a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionPrefab: {fileID: 141134, guid: f81f11d9893d41e48ad4eb20f4f4d66c, type: 3}
+  bulletImpactPrefab: {fileID: 100000, guid: b8610f4e28596594796dc0cd81578316, type: 3}
+  healthPickUpPrefab: {fileID: 4677992870419992338, guid: 672e8ca9d39898b4caeaf1e94a898f83,
+    type: 3}
+  coinPrefab: {fileID: 4112226796167734750, guid: 3906fae472ae3ab4b9702f7858077f58,
+    type: 3}
   enemyBulletPrefab: {fileID: 5943724473462292957, guid: 5993e2f2bb7d66540961906e670931e5,
     type: 3}
   enemyBulletTravelPoint: {fileID: 1630642364}
-  explosionPrefab: {fileID: 141134, guid: f81f11d9893d41e48ad4eb20f4f4d66c, type: 3}
-  bulletImpactPrefab: {fileID: 100000, guid: b8610f4e28596594796dc0cd81578316, type: 3}
-  healthPickup: {fileID: 4677992870419992338, guid: 672e8ca9d39898b4caeaf1e94a898f83,
-    type: 3}
-  coin: {fileID: 4112226796167734750, guid: 3906fae472ae3ab4b9702f7858077f58, type: 3}
