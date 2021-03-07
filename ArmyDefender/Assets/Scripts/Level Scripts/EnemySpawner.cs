@@ -20,7 +20,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private int spawnCount = 0;
     private Vector2 whereToSpawn;
     private float secondWaveTime = 0f;
-    private float secondWaveSpawnTime = 10f;
+    private float secondWaveSpawnTime = 0f;
 
     //Object references
     [SerializeField] GameObject enemyPrefab;

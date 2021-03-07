@@ -107,8 +107,8 @@ public class EnemyBaseClass : MonoBehaviour
 
     private void NumberOfCoins()
     {
-        var randNum = Random.Range(1, 3);
-        for (int i = 0; i <= randNum; i++)
+        var randNum = Random.Range(1, 4);
+        for (int i = 0; i < randNum; i++)
         {
             SpawnCoins();
         }

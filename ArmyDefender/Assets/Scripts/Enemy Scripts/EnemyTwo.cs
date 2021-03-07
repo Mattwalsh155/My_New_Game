@@ -58,5 +58,10 @@ public class EnemyTwo : EnemyBaseClass
         bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(shootDirection.x, shootDirection.y);
     }
 
+    /*private void CheckForBullets()
+    {
+        if (gameObject == null) { Destroy(bullet); }
+    }*/
+
 
 }
