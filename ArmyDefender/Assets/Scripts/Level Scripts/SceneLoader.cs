@@ -16,6 +16,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void LoadStatsScreen()
+    {
+        SceneManager.LoadScene(1);
+    }
+
     public void LoadGameOver()
     {
         StartCoroutine(GameOverDelay());

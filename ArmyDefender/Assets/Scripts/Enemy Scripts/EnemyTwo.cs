@@ -67,13 +67,9 @@ public class EnemyTwo : EnemyBaseClass
     private void HandleDamage()
     {
         var damage = FindObjectOfType<EnemyDamageDealer>();
+        if (!damage) { return; }
         damage.Hit();
     }
-
-    /*private void CheckForBullets()
-    {
-        if (gameObject == null) { Destroy(bullet); }
-    }*/
 
 
 }

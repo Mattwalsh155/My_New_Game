@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu Scene.unity
     guid: db925050e515da7439a99dc8f54092de
   - enabled: 1
+    path: Assets/Scenes/Player Stats.unity
+    guid: a2b7fabdd3373854a9aef9651d021298
+  - enabled: 1
     path: Assets/Scenes/Gameplay Scene.unity
     guid: 2fdfc14712841d44cba23be016889c0d
   - enabled: 1

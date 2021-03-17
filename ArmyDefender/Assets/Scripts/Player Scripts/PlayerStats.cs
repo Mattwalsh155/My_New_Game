@@ -7,17 +7,17 @@ public class PlayerStats : Player
 {
     [SerializeField] public float myCurrentHealth;
     [SerializeField] private float newHealth;
-    private int healthLevel;
-    private int maxHealthLevel = 20;
+    [SerializeField] private int healthLevel;
+    [SerializeField] private int maxHealthLevel = 20;
     private float healthMultiplier = 1.1f;
 
-    [SerializeField] private float currentFireRate;
+    [SerializeField] public float currentFireRate;
     [SerializeField] private float newFireRate;
     private int fireRateLevel;
     private int maxFireRateLevel = 20;
     private float fireRateIncrease = 0.05f;
 
-    [SerializeField] private float currentDamage;
+    [SerializeField] public float currentDamage;
     [SerializeField] private float newDamage;
     private int damageLevel;
     private int maxDamageLevel = 20;
@@ -32,10 +32,20 @@ public class PlayerStats : Player
 
     Player player;
     DamageDealer damage;
+    public static PlayerStats instance;
 
     private void Awake()
     {
-        var playerCount = FindObjectsOfType<PlayerStats>().Length;
+        if (instance == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+        /*var playerCount = FindObjectsOfType<PlayerStats>().Length;
 
         if (playerCount > 1)
         {
@@ -45,7 +55,7 @@ public class PlayerStats : Player
         else
         {
             DontDestroyOnLoad(gameObject);
-        }
+        }*/
     }
 
     private void Start()
@@ -80,45 +90,61 @@ public class PlayerStats : Player
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            BuyStats();
+            AddGold();
         }
     }
 
-    public void BuyStats()
+    private void AddGold()
     {
         currentGold += 10000;
-        if (currentGold >= nextLevelCost[currentLevel] && currentLevel < maxLevel - 1)
-        {
-            SpendGold();
-        }
-        if (currentLevel >= maxLevel)
-        {
-            currentGold = 0;
-        }
     }
 
     public void BuyHealth()
     {
-        IncreaseHealth();
+        if (currentGold > nextLevelCost[healthLevel] && healthLevel < maxHealthLevel - 1)
+        {
+            //Debug.Log("I am working");
+            SpendGoldOnHealth();
+        }
+        
     }
 
     public void BuyFireRate()
     {
-        IncreaseFireRate();
+        if (currentGold > nextLevelCost[fireRateLevel] && fireRateLevel < maxFireRateLevel - 1)
+        {
+            SpendGoldOnFireRate();
+        }
+
     }
 
     public void BuyDamage()
     {
-        IncreaseDamage();
+        if (currentGold > nextLevelCost[damageLevel] && damageLevel < maxDamageLevel - 1)
+        {
+            SpendGoldOnDamage();
+        }
     }
 
-    private void SpendGold()
+    private void SpendGoldOnHealth()
     {
-        currentGold -= nextLevelCost[currentLevel];
-        currentLevel++;
+        currentGold -= nextLevelCost[healthLevel];
+        healthLevel++;
         IncreaseHealth();
-        IncreaseDamage();
+    }
+
+    private void SpendGoldOnFireRate()
+    {
+        currentGold -= nextLevelCost[fireRateLevel];
+        fireRateLevel++;
         IncreaseFireRate();
+    }
+
+    private void SpendGoldOnDamage()
+    {
+        currentGold -= nextLevelCost[damageLevel];
+        damageLevel++;
+        IncreaseDamage();
     }
 
     private void IncreaseHealth()

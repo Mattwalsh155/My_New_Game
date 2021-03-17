@@ -30,6 +30,12 @@ public class Player : MonoBehaviour
     {
         SetUpMoveBoundaries();
         SetHealthValues();
+
+        //DamageDealer damage = FindObjectOfType<DamageDealer>();
+        //
+        currentHealth = PlayerStats.instance.myCurrentHealth;
+        baseFireRate = PlayerStats.instance.currentFireRate;
+        //damage.damage = PlayerStats.instance.currentDamage;
     }
 
     private void SetHealthValues()
@@ -43,6 +49,7 @@ public class Player : MonoBehaviour
     {
         MovePlayer();
         FireDelay();
+        FindObjectOfType<DamageDealer>().damage = PlayerStats.instance.currentDamage;
     }
 
     //Getters
@@ -70,6 +77,13 @@ public class Player : MonoBehaviour
     {
         get { return currentHealth; }
         set { currentHealth += healValue; }
+    }
+
+    public void SaveStats()
+    {
+        PlayerStats.instance.myCurrentHealth = GetHealth();
+        PlayerStats.instance.currentFireRate = GetFireRate();
+        PlayerStats.instance.currentDamage = FindObjectOfType<DamageDealer>().GetDamage();
     }
 
     public void CheckHealth()
@@ -140,6 +154,7 @@ public class Player : MonoBehaviour
     private void Die()
     {
         Destroy(gameObject);
+        SaveStats();
         FindObjectOfType<SceneLoader>().LoadGameOver();
     }
 }

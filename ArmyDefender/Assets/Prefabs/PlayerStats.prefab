@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6144248621426605412}
   - component: {fileID: 6144248621426605411}
+  - component: {fileID: 6012337449476393246}
   m_Layer: 0
   m_Name: PlayerStats
   m_TagString: Untagged
@@ -54,4 +55,17 @@ MonoBehaviour:
   currentDamage: 0
   newDamage: 0
   currentGold: 0
-  nextLevelcost: 
+  nextLevelCost: 
+--- !u!114 &6012337449476393246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6144248621426605413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd71b4f42eeefc246a7aa2f07a5e8ea4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
