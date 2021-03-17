@@ -25,7 +25,7 @@ public class EnemyBaseClass : MonoBehaviour
     [SerializeField] GameObject coinPrefab;
 
     //Cached script references
-    DamageDealer damage;
+    //EnemyDamageDealer damage;
 
     // Start is called before the first frame update
     protected virtual void Start()
@@ -79,19 +79,13 @@ public class EnemyBaseClass : MonoBehaviour
         Destroy(impact, impactDuration);
     }
 
-    private void DestroyEnemy()
+    protected virtual void DestroyEnemy()
     {
         Destroy(gameObject);
-        HandleDamage();
         TriggerDeathEffect();
         AddScore();
         NumberOfCoins();
-        CheckForDrops();
-    }
-
-    private void HandleDamage()
-    {
-        damage = FindObjectOfType<DamageDealer>();
+        CheckForDrops();  
     }
 
     private void TriggerDeathEffect()

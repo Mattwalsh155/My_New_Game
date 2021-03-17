@@ -33,6 +33,12 @@ public class EnemyTwo : EnemyBaseClass
         EnemyFireDelay();
     }
 
+    protected override void DestroyEnemy()
+    {
+        base.DestroyEnemy();
+        HandleDamage();
+    }
+
     private void SetFireRate()
     {
         fireRate = Random.Range(minFireRate, maxFireRate);
@@ -56,6 +62,12 @@ public class EnemyTwo : EnemyBaseClass
         Vector3 direction = (target.transform.position - transform.position).normalized * enemyBulletSpeed;
         Vector2 shootDirection = direction;
         bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(shootDirection.x, shootDirection.y);
+    }
+
+    private void HandleDamage()
+    {
+        var damage = FindObjectOfType<EnemyDamageDealer>();
+        damage.Hit();
     }
 
     /*private void CheckForBullets()

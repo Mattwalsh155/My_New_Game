@@ -6,11 +6,12 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     //Player stat variables
-    [SerializeField] private float startingHealth = 100f;
-    [SerializeField] private float currentHealth;
+    private float startingHealth = 100f;
+    [SerializeField] private float currentHealth = 100f;
     private float fireRate = 0.5f;
     private float bulletSpeed = 10f;
     private float healValue;
+    [SerializeField] private float baseFireRate = 1f;
     
 
     //Screen setup variables
@@ -46,6 +47,12 @@ public class Player : MonoBehaviour
 
     //Getters
     public float GetHealth() { return currentHealth; }
+    public float GetFireRate() { return baseFireRate; }
+
+    public void SetFireRate(float newRate)
+    {
+        baseFireRate = newRate;
+    }
     // Setters
     public void SetHealth(float zeroHealth)
     {
@@ -55,10 +62,10 @@ public class Player : MonoBehaviour
         }
         else
         {
-            currentHealth = GetHealth();
+            currentHealth = zeroHealth;
         }
     }
-    //Need only one Getter/Setter. Find out which one is working
+    //Need only one Getter/Setter. Find out which one is working. But I think I'm using them both
     public float Health
     {
         get { return currentHealth; }
@@ -101,7 +108,7 @@ public class Player : MonoBehaviour
     {
         fireRate += Time.deltaTime;
 
-        if (fireRate >= 1f)
+        if (fireRate >= baseFireRate)
         {
             FireBullet();
             fireRate = 0f;
@@ -115,12 +122,12 @@ public class Player : MonoBehaviour
 
     private void HandleHit(Collider2D otherGameObject)
     {
-        DamageDealer damage = otherGameObject.gameObject.GetComponent<DamageDealer>();
+        EnemyDamageDealer damage = otherGameObject.gameObject.GetComponent<EnemyDamageDealer>();
         if (!damage) { return; }
         TakeDamage(damage);  
     }
 
-    private void TakeDamage(DamageDealer damage)
+    private void TakeDamage(EnemyDamageDealer damage)
     {
         var damagedHealth = currentHealth -= damage.GetDamage();
         damage.Hit();
