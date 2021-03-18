@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class CoinPickUp : MonoBehaviour
 {
-    private float moveSpeed = 1f; 
+    private float moveSpeed = 1f;
+
+    PlayerStats player;
+
     private void Start()
     {
+        player = FindObjectOfType<PlayerStats>();
         MoveCoin();
     }
 
@@ -21,7 +25,7 @@ public class CoinPickUp : MonoBehaviour
         if (!manager) { return; }
         manager.PickUpItem(gameObject); //This line is causing null reference exception
         Destroy(gameObject);
-        
+        player.SetCoinCount(player.GetCoinCount());
     }
 
     private void MoveCoin()

@@ -7,7 +7,7 @@ public class EnemyBaseClass : MonoBehaviour
     //Enemy variables
     //Set the values in each enemy child class
     protected private float enemyStartingHealth;
-    protected private float enemyMoveSpeed;
+    [SerializeField] protected private float enemyMoveSpeed;
     protected private float minSpeed;
     protected private float maxSpeed;
     protected private int scoreValue;
@@ -15,7 +15,7 @@ public class EnemyBaseClass : MonoBehaviour
     private float explosionDuration = 1f;
     private float impactDuration = 0.3f;
     private float impactLocationAdjust = 1f;
-    private float healthPickUpDropRate = 20f;
+    private float healthPickUpDropRate = 10f;
     private float coinSpawnRadius = 0.5f;
 
     //Object references

@@ -22,9 +22,9 @@ public class PlayerStats : Player
     [SerializeField] private float newDamage;
     private int damageLevel;
     private int maxDamageLevel = 20;
-    private float damageMultiplier = 1.05f;
+    private float damageMultiplier = 1.07f;
 
-    [SerializeField] private float currentGold;
+    [SerializeField] private int currentGold;
     [SerializeField] private int[] nextLevelCost;
     private int currentLevel;
     private int maxLevel = 20;
@@ -47,17 +47,6 @@ public class PlayerStats : Player
         {
             Destroy(gameObject);
         }
-        /*var playerCount = FindObjectsOfType<PlayerStats>().Length;
-
-        if (playerCount > 1)
-        {
-            gameObject.SetActive(false);
-            Destroy(gameObject);
-        }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-        }*/ 
     }
 
     private void Start()
@@ -75,6 +64,21 @@ public class PlayerStats : Player
         {
             nextLevelCost[i] = Mathf.RoundToInt(nextLevelCost[i - 1] * nextLevelFactor);
         }
+    }
+
+    public int GetHealthCost()
+    {
+        return nextLevelCost[healthLevel];
+    }
+
+    public int GetDamageCost()
+    {
+        return nextLevelCost[damageLevel];
+    }
+
+    public int GetFireRateCost()
+    {
+        return nextLevelCost[fireRateLevel];
     }
 
     private void SetUpStats()
@@ -96,6 +100,16 @@ public class PlayerStats : Player
         }
     }
 
+    public int GetCoinCount()
+    {
+        return currentGold;
+    }
+
+    public void SetCoinCount(int coins)
+    {
+        currentGold++;
+    }
+
     private void AddGold()
     {
         currentGold += 10000;
@@ -105,7 +119,6 @@ public class PlayerStats : Player
     {
         if (currentGold > nextLevelCost[healthLevel] && healthLevel < maxHealthLevel - 1)
         {
-            //Debug.Log("I am working");
             SpendGoldOnHealth();
         }
         

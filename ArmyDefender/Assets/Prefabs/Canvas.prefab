@@ -102,6 +102,7 @@ GameObject:
   - component: {fileID: 208081247}
   - component: {fileID: 208081249}
   - component: {fileID: 208081248}
+  - component: {fileID: 902929356}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -169,6 +170,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Cost
+--- !u!114 &902929356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208081246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8955b82f5b1fbd14883ea55261c2a9b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &266133694
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,7 +465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.26666668, g: 0.24705882, b: 0.24705882, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -648,7 +661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.26666668, g: 0.24705882, b: 0.24705882, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -730,6 +743,7 @@ GameObject:
   - component: {fileID: 1022126067}
   - component: {fileID: 1022126069}
   - component: {fileID: 1022126068}
+  - component: {fileID: 1004156925}
   m_Layer: 5
   m_Name: CoinsText
   m_TagString: Untagged
@@ -797,6 +811,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Coins: '
+--- !u!114 &1004156925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022126066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3de2595fb14ee146a00d687b41d19d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1096764403
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,6 +925,7 @@ GameObject:
   - component: {fileID: 1258017060}
   - component: {fileID: 1258017062}
   - component: {fileID: 1258017061}
+  - component: {fileID: 1140476597}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -966,6 +993,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Cost
+--- !u!114 &1140476597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258017059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c018caf756e9c14a85a238f00f693a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1388544553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,7 +1066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.26415092, g: 0.24670699, b: 0.24670699, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1251,6 +1290,7 @@ GameObject:
   - component: {fileID: 2036310420}
   - component: {fileID: 2036310422}
   - component: {fileID: 2036310421}
+  - component: {fileID: 1508877023}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1318,6 +1358,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Cost
+--- !u!114 &1508877023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036310419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d60a7bd1da8ebea44a155d0ee3d6a012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2067715901
 GameObject:
   m_ObjectHideFlags: 0

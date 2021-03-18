@@ -6,7 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     //Player stat variables
-    private float startingHealth = 100f;
+    private float startingHealth;
     [SerializeField] private float currentHealth = 100f;
     private float fireRate = 0.5f;
     private float bulletSpeed = 10f;
@@ -28,17 +28,22 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        LoadSavedValues();
         SetUpMoveBoundaries();
         SetHealthValues();
+        
+    }
 
+    private void LoadSavedValues()
+    {
         currentHealth = PlayerStats.instance.myCurrentHealth;
         baseFireRate = PlayerStats.instance.currentFireRate;
     }
 
     private void SetHealthValues()
     {
-        currentHealth = startingHealth;
-        healValue = startingHealth * 0.2f;
+        startingHealth = currentHealth;
+        healValue = currentHealth * 0.2f;
     }
 
     // Update is called once per frame
@@ -78,7 +83,6 @@ public class Player : MonoBehaviour
 
     public void SaveStats()
     {
-        //FindObjectOfType<PlayerStats>().instance.myCurrentHealth = GetHealth();
         PlayerStats.instance.myCurrentHealth = GetHealth();
         PlayerStats.instance.currentFireRate = GetFireRate();
         PlayerStats.instance.currentDamage = FindObjectOfType<DamageDealer>().GetDamage();
