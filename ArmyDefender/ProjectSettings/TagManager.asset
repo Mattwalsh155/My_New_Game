@@ -9,6 +9,9 @@ TagManager:
   - Projectile
   - Coin
   - Health
+  - Health Button
+  - Damage Button
+  - Fire Rate Button
   layers:
   - Default
   - TransparentFX

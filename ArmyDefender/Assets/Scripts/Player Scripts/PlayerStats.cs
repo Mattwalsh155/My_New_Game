@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerStats : Player
 {
@@ -39,6 +40,7 @@ public class PlayerStats : Player
         if (instance == null)
         {
             DontDestroyOnLoad(gameObject);
+            
             instance = this;
         }
         else if (instance != this)
@@ -55,7 +57,7 @@ public class PlayerStats : Player
         else
         {
             DontDestroyOnLoad(gameObject);
-        }*/
+        }*/ 
     }
 
     private void Start()
