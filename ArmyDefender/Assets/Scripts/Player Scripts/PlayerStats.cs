@@ -47,18 +47,20 @@ public class PlayerStats : Player
         {
             Destroy(gameObject);
         }
+
+        SetUpStats();
+        SetLevels();
     }
 
     private void Start()
     {
-        SetUpStats();
-        SetLevels();
+        
     }
 
     private void SetLevels()
     {
         nextLevelCost = new int[maxLevel];
-        nextLevelCost[0] = 1000;
+        nextLevelCost[0] = 10;
 
         for (int i = 1; i < maxLevel; i++)
         {
