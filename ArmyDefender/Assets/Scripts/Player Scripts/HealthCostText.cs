@@ -18,7 +18,9 @@ public class HealthCostText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        CheckLevel();
         text.text = player.GetHealthCost().ToString();
+        
 
         if (player.GetCoinCount() >= player.GetHealthCost())
         {
@@ -27,6 +29,14 @@ public class HealthCostText : MonoBehaviour
         else
         {
             text.color = Color.red;
+        }
+    }
+
+    private void CheckLevel()
+    {
+        if (player.GetHealthCost() == player.GetMaxLevel())
+        {
+            text.text = "MAX";
         }
     }
 }

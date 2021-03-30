@@ -68,6 +68,11 @@ public class PlayerStats : Player
         }
     }
 
+    public int GetMaxLevel()
+    {
+        return maxLevel;
+    }
+
     public int GetHealthCost()
     {
         return nextLevelCost[healthLevel];
