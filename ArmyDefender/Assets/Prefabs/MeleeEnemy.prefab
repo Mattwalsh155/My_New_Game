@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 3934221177776790311}
   - component: {fileID: -490613715086878128}
   - component: {fileID: -1699294023173071301}
+  - component: {fileID: 4801523300083146778}
   m_Layer: 11
   m_Name: MeleeEnemy
   m_TagString: Enemy
@@ -105,8 +106,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 4a5253030c71a9b499703bf37fcc6a05, type: 3}
-  m_Color: {r: 1, g: 0.70745164, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: cadc1493b000f0b49b96dec45d9dedd8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -154,7 +155,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.9, y: 0.56}
     newSize: {x: 0.5, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -175,6 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ab1de26e887e7f4981b65452fbf1acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyMoveSpeed: 0
   explosionPrefab: {fileID: 141134, guid: f81f11d9893d41e48ad4eb20f4f4d66c, type: 3}
   bulletImpactPrefab: {fileID: 100000, guid: b8610f4e28596594796dc0cd81578316, type: 3}
   healthPickUpPrefab: {fileID: 4677992870419992338, guid: 672e8ca9d39898b4caeaf1e94a898f83,
@@ -194,3 +196,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 50
+--- !u!95 &4801523300083146778
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665966544275463388}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f331fdeeca0c91d4cab3448c51ea0f3a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

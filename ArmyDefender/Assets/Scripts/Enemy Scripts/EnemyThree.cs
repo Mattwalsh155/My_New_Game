@@ -9,4 +9,9 @@ public class EnemyThree : EnemyTwo
         GameObject bullet = Instantiate(enemyBulletPrefab, enemyBulletTravelPoint.position, Quaternion.identity);
         bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -enemyBulletSpeed);
     }
+
+    protected override void FacePlayer()
+    {
+        return;
+    }
 }

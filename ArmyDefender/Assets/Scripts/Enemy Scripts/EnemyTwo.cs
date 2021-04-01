@@ -9,10 +9,13 @@ public class EnemyTwo : EnemyBaseClass
     protected private float enemyBulletSpeed = 8f;
     private float minFireRate = 0.5f;
     private float maxFireRate = 2f;
+    private float interval = 1f;
 
     //Object references
     [SerializeField] protected GameObject enemyBulletPrefab;
     [SerializeField] protected Transform enemyBulletTravelPoint;
+    private Rigidbody2D rb;
+    //[SerializeField] private Transform player;
 
     private void Awake()
     {
@@ -24,19 +27,31 @@ public class EnemyTwo : EnemyBaseClass
     protected override void Start()
     {
         base.Start();
-        SetFireRate(); 
+        SetFireRate();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     protected override void Update()
     {
         base.Update();
         EnemyFireDelay();
+        FacePlayer();
     }
 
     protected override void DestroyEnemy()
     {
         base.DestroyEnemy();
         HandleDamage();
+    }
+
+    protected virtual void FacePlayer()
+    {
+        Player target = GameObject.FindObjectOfType<Player>();
+        if (!target) { return; }
+
+        Vector3 direction = target.transform.position - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 270f;
+        rb.rotation = angle;
     }
 
     private void SetFireRate()
@@ -58,6 +73,7 @@ public class EnemyTwo : EnemyBaseClass
     {
         Player target = GameObject.FindObjectOfType<Player>();
         if (!target) { return; }
+        //transform.rot
         GameObject bullet = Instantiate(enemyBulletPrefab, enemyBulletTravelPoint.position, Quaternion.identity);
         Vector3 direction = (target.transform.position - transform.position).normalized * enemyBulletSpeed;
         Vector2 shootDirection = direction;
