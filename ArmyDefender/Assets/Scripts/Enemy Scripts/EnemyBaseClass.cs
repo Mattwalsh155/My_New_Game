@@ -17,12 +17,14 @@ public class EnemyBaseClass : MonoBehaviour
     private float impactLocationAdjust = 1f;
     private float healthPickUpDropRate = 10f;
     private float coinSpawnRadius = 0.5f;
+    private float weaponDropRate = 5f;
 
     //Object references
     [SerializeField] GameObject explosionPrefab;
     [SerializeField] GameObject bulletImpactPrefab;
     [SerializeField] GameObject healthPickUpPrefab;
     [SerializeField] GameObject coinPrefab;
+    [SerializeField] GameObject[] weaponPickups;
 
     //Cached script references
     //EnemyDamageDealer damage;
@@ -117,15 +119,28 @@ public class EnemyBaseClass : MonoBehaviour
     //Probably convert to a switch in the future
     private void CheckForDrops()
     {
-        var randNum = Random.Range(0f, 100f);
-        if (randNum <= healthPickUpDropRate)
+        var randNumHealth = Random.Range(0f, 100f);
+        if (randNumHealth <= healthPickUpDropRate)
         {
             GenerateHealthPickUp();
         }
+
+        var randNumGun = Random.Range(0f, 100f);
+        if (randNumGun <= weaponDropRate)
+        {
+            GenerateWeaponPickUp();
+        }
+        Debug.Log(randNumGun);
     }
 
     private void GenerateHealthPickUp()
     {
         Instantiate(healthPickUpPrefab, transform.position, Quaternion.identity);
+    }
+
+    private void GenerateWeaponPickUp()
+    {
+        var weaponIndex = Random.Range(0, 3);
+        Instantiate(weaponPickups[weaponIndex], transform.position, Quaternion.identity);
     }
 }

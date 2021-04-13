@@ -6,19 +6,19 @@ using UnityEngine.UI;
 
 public class PlayerStats : Player
 {
-    [SerializeField] public float myCurrentHealth;
+    public float myCurrentHealth;
     [SerializeField] private float newHealth;
     [SerializeField] private int healthLevel;
     [SerializeField] private int maxHealthLevel = 20;
     private float healthMultiplier = 1.1f;
 
-    [SerializeField] public float currentFireRate;
+    public float currentFireRate;
     [SerializeField] private float newFireRate;
     private int fireRateLevel;
     private int maxFireRateLevel = 20;
     private float fireRateIncrease = 0.05f;
 
-    [SerializeField] public float currentDamage;
+    public float currentDamage;
     [SerializeField] private float newDamage;
     private int damageLevel;
     private int maxDamageLevel = 20;
@@ -32,6 +32,7 @@ public class PlayerStats : Player
     private float nextLevelFactor = 1.25f;
 
     Player player;
+    PrimaryWeapon primaryWeapon;
     DamageDealer damage;
     public static PlayerStats instance;
 
@@ -93,19 +94,20 @@ public class PlayerStats : Player
         player = FindObjectOfType<Player>();
         myCurrentHealth = player.GetHealth();
 
-        currentFireRate = player.GetFireRate();
+        primaryWeapon = FindObjectOfType<PrimaryWeapon>();
+        currentFireRate = primaryWeapon.GetFireRate();
 
         damage = FindObjectOfType<DamageDealer>();
         currentDamage = damage.GetDamage();
     }
 
-    private void Update()
+    /*private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             AddGold();
         }
-    }
+    }*/
 
     public int GetCoinCount()
     {

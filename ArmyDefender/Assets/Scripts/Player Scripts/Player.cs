@@ -8,10 +8,10 @@ public class Player : MonoBehaviour
     //Player stat variables
     private float startingHealth;
     [SerializeField] private float currentHealth = 100f;
-    private float fireRate = 0.5f;
-    private float bulletSpeed = 10f;
+    public float fireRate = 0.5f;
+    //private float bulletSpeed = 10f;
     private float healValue;
-    [SerializeField] private float baseFireRate = 1f;
+    //[SerializeField] private float baseFireRate = 1f;
     
 
     //Screen setup variables
@@ -22,8 +22,8 @@ public class Player : MonoBehaviour
     //Player sound variables
 
     //Object references
-    [SerializeField] GameObject bulletPrefab;
-    [SerializeField] Transform bulletTravelPoint;
+    WeaponManager weapons;
+    PrimaryWeapon primaryWeapon;
 
     // Start is called before the first frame update
     void Start()
@@ -31,13 +31,14 @@ public class Player : MonoBehaviour
         LoadSavedValues();
         SetUpMoveBoundaries();
         SetHealthValues();
-        
+        weapons = FindObjectOfType<WeaponManager>();
+        //primaryWeapon = FindObjectOfType<PrimaryWeapon>();
     }
 
     private void LoadSavedValues()
     {
         currentHealth = PlayerStats.instance.myCurrentHealth;
-        baseFireRate = PlayerStats.instance.currentFireRate;
+        FindObjectOfType<PrimaryWeapon>().baseFireRate = PlayerStats.instance.currentFireRate;
     }
 
     private void SetHealthValues()
@@ -47,20 +48,20 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         MovePlayer();
-        FireDelay();
+        //FireDelay();
         FindObjectOfType<DamageDealer>().damage = PlayerStats.instance.currentDamage;
     }
 
     //Getters
     public float GetHealth() { return currentHealth; }
-    public float GetFireRate() { return baseFireRate; }
+    //public float GetFireRate() { return primaryWeapon.baseFireRate; }
 
     public void SetFireRate(float newRate)
     {
-        baseFireRate = newRate;
+        primaryWeapon.baseFireRate = newRate;
     }
     // Setters
     public void SetHealth(float zeroHealth)
@@ -84,7 +85,7 @@ public class Player : MonoBehaviour
     public void SaveStats()
     {
         PlayerStats.instance.myCurrentHealth = GetHealth();
-        PlayerStats.instance.currentFireRate = GetFireRate();
+        PlayerStats.instance.currentFireRate = primaryWeapon.GetFireRate();
         PlayerStats.instance.currentDamage = FindObjectOfType<DamageDealer>().GetDamage();
     }
 
@@ -114,13 +115,13 @@ public class Player : MonoBehaviour
         transform.position = playerPos;
     }
 
-    private void FireBullet()
+    /*protected virtual void FireBullet()
     {
         GameObject bullet = Instantiate(bulletPrefab, bulletTravelPoint.position, Quaternion.identity);
         bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(0, bulletSpeed);
     }
 
-    private void FireDelay()
+    protected virtual void FireDelay()
     {
         fireRate += Time.deltaTime;
 
@@ -129,7 +130,7 @@ public class Player : MonoBehaviour
             FireBullet();
             fireRate = 0f;
         }
-    }
+    }*/
 
     private void OnTriggerEnter2D(Collider2D otherGameObject)
     {

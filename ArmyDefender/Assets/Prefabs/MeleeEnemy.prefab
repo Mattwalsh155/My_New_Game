@@ -183,6 +183,10 @@ MonoBehaviour:
     type: 3}
   coinPrefab: {fileID: 4112226796167734750, guid: 3906fae472ae3ab4b9702f7858077f58,
     type: 3}
+  weaponPickups:
+  - {fileID: 810515821879902856, guid: 26acf733e79bfea4990930c96a7e2b74, type: 3}
+  - {fileID: 2935284066412224415, guid: 5c7f2454238b3b5439ec3759143501a1, type: 3}
+  - {fileID: 9019073169386223250, guid: 875dc0c929523d746a2723b1447788ed, type: 3}
 --- !u!114 &-1699294023173071301
 MonoBehaviour:
   m_ObjectHideFlags: 0
