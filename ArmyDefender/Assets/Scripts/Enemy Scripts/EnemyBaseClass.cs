@@ -130,7 +130,7 @@ public class EnemyBaseClass : MonoBehaviour
         {
             GenerateWeaponPickUp();
         }
-        Debug.Log(randNumGun);
+        //Debug.Log(randNumGun);
     }
 
     private void GenerateHealthPickUp()
